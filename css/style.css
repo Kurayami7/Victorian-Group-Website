@@ -1,0 +1,581 @@
+/* Importing a font from google fonts' official website  */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap'); 
+
+/*   background-color: #f4f4f4; special white
+ */
+
+:root {
+  --main-bg-color: rgb(5, 2, 2); /* This is a global variable
+  that receives a value later - Areaf */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: whitesmoke;
+}
+
+body {
+  background-color: #cbcbcb;
+}
+
+header {
+  background: var(--main-bg-color);
+  /* height: 10vh; */
+  font-family: 'Radio Canada', sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.logo img {
+/*   width: 110px; */
+  padding: 0 24px;
+  height: 50px;
+  padding-bottom: 4px;
+/*   border: 2px solid white; */
+/*   border-radius: 50px; */
+}
+
+nav ul {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 0.5px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.2s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 26px;
+    border-radius: 4.5px;
+    margin: 0 3px 0 56px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 900;
+}
+
+.search button:hover {
+    font-weight: bolder;
+    background-color: #001f3f;
+}
+
+/* Styling the slider with 3 images */
+.slider {
+  width: 80vw;
+  margin: 6vh auto;
+  overflow: hidden;
+  border-radius: 0.4vw;
+  margin-bottom: -6vh;
+  border: 10px solid black;
+}
+
+.card {
+  display: flex;
+  /* justify-content: center; */
+  overflow: visible;
+  flex-direction: column;
+  /* margin-bottom: 7vh; /* Distance between the main div container and the footer */
+} 
+
+.cards{
+  margin-top: 18vh;
+  font-family: 'Radio Canada', sans-serif;
+  background-color: #cbcbcb;
+  width: 100%;
+/*   height: 30%; */
+  flex-direction: column;
+}
+
+.special-control {
+  height: 48vh;
+  margin-top: 13vh;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0.5vh 0vw;
+  text-align: justify;
+  align-items: center;
+  height: 69.5vh;
+}
+
+.card-item-2{
+  margin: auto; 
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 5vw;
+  margin-bottom: -3.5vh;
+  align-items: center;
+}
+.card-item-3 {
+  height: inherit;
+  margin: auto; 
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 5vw;
+  align-items: center;
+}
+
+.custom-card {  /* Custom card basically is a div containing the card-item, which is the victorian img and def div */
+  background-color: beige !important;
+  border-top: 4px ridge black;
+  border-bottom: 4px ridge black;
+}
+
+/* Alternate light olive
+#919173
+*/
+
+
+.borderworthy-img {
+  border: 3px ridge black;
+}
+
+.subscribe-tree-div {
+  height: 51vh;
+}
+
+.card h2 {
+  font-family: 'Radio Canada', sans-serif;
+  margin-bottom: 2vh;
+}
+
+article{
+  margin-left: 6vw;  
+/*   text-align: center; */
+  margin-top: -7vh;
+  display: inline-block;
+}
+
+div article p {
+  width: 40vw;
+}
+
+.p1, .p2, .p3 {
+  margin: 1.1em auto;
+}
+
+.p1{
+  margin-bottom: 0em; /* The distance between p1 & p2 in subscribe */
+}
+
+.my-4 {
+  text-transform: uppercase;
+}
+
+.container {
+  min-height: calc(100vh - 10vh - 12vh);
+}
+
+.indexFigure {
+  display: flex;
+  background-color: black;
+  border: 6px solid black;
+  position: relative;
+  width: 299.1%; 
+  left: 0;
+  margin: 0;
+  padding: 0;
+  animation: 22s slider infinite;
+}
+
+.img1, .img2, .img3 {
+  border: 2px dashed black;
+  background-color: beige;
+  width: 33%;
+  padding-right: 30vw;
+  float: left;
+}
+
+.img3 {
+/*   border-left: 4px dashed black;  */
+  margin-left: 0.25vw;
+  margin-right: 0;
+}
+.img2 {
+  padding-right: 30.5vw;
+  margin-left: 2.5vw;
+  margin-right: 0vw;
+}
+.img1 {
+  margin-right: -2vw;
+}
+
+
+.cap1 {
+  position: absolute;
+  width: 10.5%;
+  left: 102vh;
+  top: 35vh;
+  display: inline;
+  font-family: "Astoria W05 Regular";
+  color: black;
+  font-size: 20px;
+  text-shadow: -1px 0 #dd3636, 0 1px #d53434, 1px 0 #dd3636, 0 -1px #e72323;
+}
+.cap2 {
+  position: absolute;
+  width: 9.5%;
+  left: 56%;
+  top: 28vh;
+  display: flex;
+  font-family: "Astoria W05 Regular";
+  color: saddlebrown;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  flex-direction: column;
+}
+
+.cap3 {
+  position: absolute;
+  width: 9.5%;
+  left: 89.3%;
+  top: 28vh;
+  display: flex;
+  font-family: "Astoria W05 Regular";
+  color: black;
+  font-size: 20px;
+  text-shadow: -1px 0 goldenrod, 0 1px goldenrod, 1px 0 goldenrod, 0 -1px goldenrod;
+  flex-direction: column;
+}
+
+strong, small {
+  color: black;
+  text-shadow: 0px 0.5px 0.5px black
+}
+
+figcaption strong {
+  display: inline-block;
+  position: relative;
+  margin-top: 3%;
+  margin-left: 35.5%;
+  width: 40%;
+  text-shadow: 0px 0.5px 0.5px black;
+}
+
+.p1 {
+  font-size: large;
+}
+.p2 {
+  font-size: 1.1em;
+}
+
+/* An animation to control the slider's effects */
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  17% {
+    left: 0;
+  }
+  27% {
+    left: -100%;
+  }
+  44% {
+    left: -100%;
+  }
+  54% {
+    left: -200%;
+  }
+  71% {
+    left: -200%;
+  }
+  81% {
+    left: -100%;
+  }
+  95% {
+    left: -100%;
+  }
+  100%{
+    left: 0;
+  }
+}
+
+#subscribe-box {
+  width: 24vw;
+  height: 5vh;
+  border-radius: 4.5px;
+/*   margin: 0 3px 0 56px; */
+  padding: 0 12px;
+}
+
+#subscribe-btn {
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 900;
+  font-size: medium;
+  padding: 5px 10px;
+  color: white;
+  background: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 8vw;
+  height: 5vh;
+}
+
+#subscribe-btn:hover {
+  font-weight: bolder;
+  background-color: #001f3f;
+}
+
+
+footer {
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+
+/* Special color (saved for later)
+#cbcbcb
+*/
+
+
+/*  About.php */
+
+body main section {
+  font-family: 'Radio Canada', sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5vh 3vw 3vw;
+  text-align: justify;
+  align-items: center;
+  }
+
+.aboutSection {
+  width: 60vw;
+}
+
+.aboutCards {
+  margin-top: 0vh;
+}
+
+.aboutImg {
+  border: 9px solid black;
+  margin-bottom: 5.5vh;
+  margin-left: -19vw;
+}
+
+.aboutHeading { /* The heading (h1) in about,php */
+  display: flex;
+  width: inherit;
+  margin-bottom: 3.5vh;
+  margin-left: 1vw;
+  text-transform: uppercase;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.aboutCards section p {
+  margin: 0.8vh 0;
+}
+
+
+
+/* Styles for the send-email.php */
+.sendEmailCards {
+  height: 78vh;
+}
+
+/* Styling the box/container that appears once a form is submitted in contact.php */
+.sendEmailForm {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 40vw;
+  padding: 4vh 0;
+  background-color: #080808;
+  color: white;
+  border: 7px solid gray;
+  line-height: 2;
+  margin-top: 4vh;
+}
+
+svg {
+  margin-bottom: 6vh;
+}
+
+/* Subscribe styles */
+.popup {
+  position: absolute;
+  left: 67%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  height: 30vh;
+  background-color: #0d0808;
+  color: white;
+  border: 6px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  display: none;
+  padding-top: 24vh;
+  margin-top: -5vh
+}
+
+/* .popup > * {
+  display: flex;
+  justify-content: middle;
+  align-items: center;
+  margin: 0 auto;
+}
+ */
+
+.close-btn {
+  background-color: #eedddd;
+  color: #141010;
+  border: 2px solid red;
+  width: 10vw;
+  padding: 10px 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 900;
+  font-size: 13.5px;
+}
+
+.close-btn:hover {
+  background-color: #c19f9f; 
+  font-weight: bolder;
+}
+
+.no-width {
+  width: initial;
+}
+
+.contactSectionControl {
+  display: flex;
+  flex-direction: row;
+}
+
+.strongLeft {
+  margin-left: 0;
+}
+
+.contactFC { /* The contact page's figcaption */
+  margin-left: -20.2vw;
+  margin-top: -4vh;
+}
+
+/* Styles for the contact.php */
+.contactImg {
+  border: 9px solid black;
+  margin-bottom: 5.5vh;
+  margin-left: -21vw;
+}
+
+/* Styles for the form in contact.php */
+.contactForm {
+  display: inline-flex;
+  flex-direction: column;
+/*   background-color: black; */
+  color: white;
+  height: 30vh;
+  width: 20vw;
+  align-content: center;
+  align-items: center;
+}
+
+.contactFormDiv {
+  height: 35vh;
+  width: 30vw;
+  margin-left: -20vw; 
+  background-color: #2f2828;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  margin-top: -0.6vh;
+  padding: 3.7vh 0; 
+  line-height: 3;
+  padding-bottom: 12vh;
+}
+
+.contactP {
+  margin-top: 9vh !important;
+  margin-left: -20vw !important;
+  background-color: #2f2828;
+  color: white;
+  padding: 4px;
+  border: 3px solid white;
+  padding: 9vh 0;
+  text-align: center;
+}
+
+.contactSubmitButton {
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 900;
+  font-size: medium;
+  padding: 5px 10px;
+  color: white;
+  background: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 8vw;
+  height: 5vh;
+  margin-top: 2.2vh;
+}
+
+.contactSubmitButton:hover {
+  font-weight: bolder;
+  background-color: #001f3f;
+}
+
+
+
+

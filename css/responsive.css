@@ -1,0 +1,809 @@
+/* This file ensures that the site runs well and adapts according to the screen */
+@media screen and (max-width:429px) {
+  nav {
+    flex-direction: column;
+    height: 25vh;
+  }
+
+  .search {
+    height: 8vh;
+    overflow: hidden;
+    margin-top: 1.5vh;
+/*     padding-bottom: -3vh; */
+  }
+
+  .slider{
+    height: 66.7vh !important;
+    width: 90%;
+    border-radius: 0.4vw;
+    }
+
+    .logo {
+      margin: 12px 0; 
+      width: 30%;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav div img {
+      margin-left: 65vw;
+    }
+
+  div div figure img {
+    height: 37vh;
+  }
+
+    nav ul {
+      justify-content: center;
+      border: 2px solid white;
+      border-radius: 0.4em;
+      margin-right: 0.8em;
+    }
+
+    nav ul li a:hover {
+      border: 1px solid gray;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+
+  .cap1 {
+    left: 27vh;
+    width: 9.5%;
+    font-size: small !important;
+    top: 30vh;
+  }
+
+  .cap2 {
+    font-size: small;
+    top: 27vh;
+  }
+
+  .cap3 {
+    font-size: small;
+    top: 27vh;
+    left: 87.3%;
+  }
+
+  .aboutSection figure {
+    margin-left: 12vw !important;  
+  }
+
+  .img1 {
+    padding-right: 21vw !important;
+  }
+  .img2 {
+    margin-left: 1.5vw;
+    padding-right: 22.5vw;
+  }
+  .img3 {
+    margin-right: -2px;
+    padding-right: 22vw;
+  }
+
+  .img1, .img2, .img3 {
+    background-color: white;
+    width: 25% !important;
+    height: 65vh;
+  }
+
+  div article p {
+    font-size: 7px;
+  }
+
+  .special-control {
+    height: 12vh;
+  }
+
+  .cards {
+   margin-top: 5vh; 
+  }
+
+  .card-item {
+    height: 25vh;
+    margin-top: 9vh;
+  }
+
+  .subscribe-tree-div {
+    height: 19vh;
+  }
+
+  .subscribe-tree-article {
+    margin-top: 2vh;
+  }
+
+  .my-2 {
+    margin: 6vh 0 1vh 0 !important;
+  }
+
+  .my-3 {
+    margin-top: 5vh;  
+  }
+  
+  .my-4 {
+    font-size: 20px;
+    margin-bottom: 0 !important; 
+  }
+
+
+  .p1, .p2, .p3 {
+    margin: 0.25em auto;
+  }
+
+  #subscribe-box {
+    height: 3vh;
+    width: 23vw;
+  }
+
+  #subscribe-btn {
+    width: 15vw;
+    font-size: x-small;
+    height: 4vh !important;
+  }
+
+  .borderworthy-img {
+    width: 38%;
+  }
+
+  .card-item-2 img {
+    width: 38%
+  }
+
+  .aboutCards {
+    margin-top: 0;
+  }
+
+  .aboutImg {
+    margin-left: 20vw !important;
+    width: 320px;
+  }  
+
+  .aboutSection {
+    margin-left: 10vw !important;
+  }
+
+  .contactSectionControl {
+    flex-direction: column;
+  }
+
+  .contactImg {
+    margin-left: 0;
+    width: 320px;
+  }
+
+  .contactFC {
+    margin-left: 0 !important;
+  }
+
+  .contactP {
+    margin: 0 auto 1vh !important;
+    font-size: 12px;
+  }
+
+  .contactFormDiv {
+    width: 78vw;
+    margin-left: 0;
+  }
+  
+  .contactSubmitButton {
+    width: 18vw !important;
+  }
+
+  .contactForm input {
+    width: 30vw !important;
+  }
+
+  footer p {
+    margin-left: 10vw;
+  }
+}
+
+
+@media screen and (max-width:730px) and (min-width:430px) {
+  nav {
+    flex-direction: column;
+    height: 30vh;
+    }
+
+  .search {
+    height: 8vh;
+    overflow: hidden;
+    margin-top: 1.5vh;
+/*     padding-bottom: -3vh; */
+  }
+
+  .slider{
+    height: 61.5vh !important;
+    width: 90%;
+    border-radius: 0.4vw;
+    }
+
+  div figure img {
+    height: 61.5vh !important;
+  }
+
+    .logo {
+      margin: 12px 0; 
+      width: 30%;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav div img {
+      margin-left: 65vw;
+    }
+
+  .slider {
+    height: 40vh;
+  }
+
+  div div figure img {
+    height: 37vh;
+  }
+
+    nav ul {
+      justify-content: center;
+      border: 2px solid white;
+      border-radius: 0.4em;
+      margin-right: 0.8em;
+    }
+
+    nav ul li a:hover {
+      border: 1px solid gray;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+
+  .cap1 {
+    left: 39vh;
+    width: 9.5%;
+    font-size: small !important;
+    top: 30vh;
+  }
+
+  .cap2 {
+    font-size: small;
+    top: 27vh;
+  }
+
+  .cap3 {
+    font-size: small;
+    top: 27vh;
+  }
+
+  .aboutSection figure {
+    margin-left: 12vw !important;  
+  }
+
+  .img1 {
+    padding-right: 20.5vw !important;
+  }
+  .img2 {
+    margin-left: 1.5vw;
+    padding-right: 21.5vw;
+  }
+  .img3 {
+    margin-right: -2px;
+    padding-right: 20vw;
+  }
+
+  .img1, .img2, .img3 {
+    background-color: white;
+    width: 25% !important;
+  }
+
+  div article p {
+    font-size: 7px;
+  }
+
+  .special-control {
+    height: 21vh;
+  }
+
+  .cards {
+   margin-top: 5vh; 
+  }
+
+  .card-item {
+    height: 31vh;
+    margin-top: 9vh;
+  }
+
+  .subscribe-tree-div {
+    height: 26vh;
+  }
+
+  .subscribe-tree-article {
+    margin-top: 2vh;
+  }
+
+  .my-2 {
+    margin: 6vh 0 1vh 0 !important;
+  }
+
+  .my-4 {
+    font-size: 20px;
+    margin-bottom: 0 !important; 
+  }
+
+
+  .p1, .p2, .p3 {
+    margin: 0.5em auto;
+  }
+
+  #subscribe-box {
+    height: 3vh;
+    width: 23vw;
+  }
+
+  #subscribe-btn {
+    width: 15vw;
+    font-size: x-small;
+    height: 4vh !important;
+  }
+
+  .borderworthy-img {
+    width: 38%;
+  }
+
+  .card-item-2 img {
+    width: 38%
+  }
+
+  .contactP {
+    margin: 0 0 1vh !important;
+  }
+
+  .aboutCards {
+    margin-top: 0;
+  }
+
+  .aboutImg {
+    margin-left: 20vw !important;
+    width: 400px;
+  }  
+
+  .aboutSection {
+    margin-left: 10vw !important;
+  }
+
+  .contactSectionControl {
+    flex-direction: column;
+  }
+
+  .contactImg {
+    margin-left: 0;
+    width: 400px;
+  }
+
+  .contactFC {
+    margin-left: 0 !important;
+  }
+
+  .contactSubmitButton {
+    width: 14vw !important;
+  }
+
+  .contactForm input {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (max-width:849px) and (min-width:630px) {
+  nav {
+    flex-direction: column;
+    height: 30vh;
+    }
+
+  .search {
+    height: 8vh;
+    overflow: hidden;
+    margin-top: 1.5vh;
+/*     padding-bottom: -3vh; */
+  }
+
+  .slider{
+    height: 61.5vh !important;
+    width: 90%;
+    border-radius: 0.4vw;
+    }
+
+  div figure img {
+    height: 61.5vh !important;
+  }
+
+    .logo {
+      margin: 12px 0; 
+      width: 30%;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav div img {
+      margin-left: 65vw;
+    }
+
+  .slider {
+    height: 40vh;
+  }
+
+  div div figure img {
+    height: 37vh;
+  }
+
+    nav ul {
+      justify-content: center;
+      border: 2px solid white;
+      border-radius: 0.4em;
+      margin-right: 0.8em;
+    }
+
+    nav ul li a:hover {
+      border: 1px solid gray;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+
+  .cap1 {
+    left: 52vh;
+    width: 9.5%;
+    font-size: medium;
+    top: 30vh;
+  }
+
+  .cap2 {
+    font-size: medium;
+    top: 27vh;
+  }
+
+  .cap3 {
+    font-size: medium;
+    top: 27vh;
+  }
+
+  .aboutSection figure {
+    margin-left: 24vw;  
+  }
+
+  .img2 {
+    margin-left: 1.5vw;
+  }
+  .img3 {
+    margin-right: -2px;
+  }
+
+  .img1, .img2, .img3 {
+    padding-right: 20vw;
+    background-color: white;
+  }
+
+  div article p {
+    font-size: 9px;
+  }
+
+  .special-control {
+    height: 21vh;
+  }
+
+  .cards {
+   margin-top: 11vh; 
+  }
+
+  .card-item {
+    height: 31vh;
+  }
+
+  .subscribe-tree-div {
+    height: 26vh;
+  }
+
+  .subscribe-tree-article {
+    margin-top: 2vh;
+  }
+
+  .my-2 {
+    margin: 6vh 0 1vh 0 !important;
+  }
+
+  .my-4 {
+    font-size: 20px;
+    margin-bottom: 0 !important; 
+  }
+
+
+  .p1, .p2, .p3 {
+    margin: 0.5em auto;
+  }
+
+  #subscribe-btn {
+    width: 12vw;
+    font-size: smaller;
+  }
+
+  .borderworthy-img {
+    width: 38%;
+  }
+
+  .card-item-2 img {
+    width: 38%
+  }
+
+  .contactP {
+    margin: 0 0 1vh !important;
+  }
+
+  .aboutCards {
+    margin-top: 0;
+  }
+
+  .aboutImg {
+    margin-left: 20vw !important;
+  }  
+
+  .aboutSection {
+    margin-left: 6vw;
+  }
+
+  .contactSectionControl {
+    flex-direction: column;
+  }
+
+  .contactImg {
+    margin-left: 0;
+  }
+
+  .contactFC {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width:999px) and (min-width:850px) {
+  nav {
+    flex-direction: column;
+    height: 30vh;
+    }
+  
+  .search {
+    height: 8vh;
+    overflow: hidden;
+    margin-top: 1.5vh;
+/*     padding-bottom: -3vh; */
+  }
+
+  .slider{
+    height: 61.5vh !important;
+    width: 90%;
+    border-radius: 0.4vw;
+    }
+  
+  div figure img {
+    height: 61.5vh !important;
+  }
+
+    .logo {
+      margin: 12px 0; 
+      width: 30%;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav div img {
+      margin-left: 65vw;
+    }
+
+  .slider {
+    height: 40vh;
+  }
+
+  div div figure img {
+    height: 37vh;
+  }
+
+    nav ul {
+      justify-content: center;
+      border: 2px solid white;
+      border-radius: 0.4em;
+      margin-right: 0.8em;
+    }
+  
+    nav ul li a:hover {
+      border: 1px solid gray;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+
+  .cap1 {
+    left: 69vh;
+    width: 11.5%;
+
+  }
+
+  .img2 {
+    margin-left: 1.5vw;
+  }
+
+  .img3 {
+    margin-right: -2px;
+  }
+
+  div article p {
+    font-size: 12px;
+  }
+
+  .special-control {
+    height: 30vh;
+  }
+
+  .cards {
+   margin-top: 15vh; 
+  }
+
+  .card-item {
+    height: 38vh;
+  }
+
+  .subscribe-tree-div {
+    height: 36vh;
+  }
+
+  .subscribe-tree-article {
+    margin-top: 2vh;
+  }
+
+  #subscribe-btn {
+    width: 9vw;
+    font-size: smaller;
+  }
+
+  .borderworthy-img {
+    width: 38%;
+  }
+
+  .card-item-2 img {
+    width: 38%
+  }
+
+  .contactP {
+    margin: 0 0 1vh !important;
+  }
+
+  .aboutCards {
+    margin-top: 0;
+  }
+
+  .aboutImg {
+    margin-left: 5vw !important;
+  }  
+
+  .aboutSection {
+    margin-left: 6vw;
+  }
+  
+  .aboutSection figure {
+    margin-left: 22vw;  
+  }
+
+  .contactSectionControl {
+    flex-direction: column;
+  }
+
+  .contactImg {
+    margin-left: 0;
+  }
+
+  .contactFC {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width:1350px) and (min-width:1000px) {
+  .cap1 {
+    left: 69vh;
+    width: 11.5%;
+  
+  }
+
+  .img2 {
+    margin-left: 1.5vw;
+  }
+
+  .img3 {
+    margin-right: -2px;
+  }
+
+  div article p {
+    font-size: 12px;
+  }
+
+  .special-control {
+    height: 38vh;
+  }
+
+  .cards {
+   margin-top: 18vh; 
+  }
+
+  .card-item {
+    height: 40.5vh;
+  }
+
+  .subscribe-tree-div {
+    height: 40vh;
+  }
+
+  .subscribe-tree-article {
+    margin-top: 2vh;
+  }
+
+  .borderworthy-img {
+    width: 38%;
+  }
+
+  .card-item-2 img {
+    width: 38%
+  }
+
+  .contactP {
+    margin: 0 0 1vh !important;
+
+  }
+
+  .aboutCards {
+    margin-top: 0;
+  }
+  
+  .aboutImg {
+    margin-left: 0;
+  }
+
+  .contactSectionControl {
+    flex-direction: column;
+  }
+  
+  .contactImg {
+    margin-left: 0;
+  }
+
+  .contactFC {
+    margin-left: 0 !important;
+  }
+}
