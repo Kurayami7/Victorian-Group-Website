@@ -14,10 +14,10 @@ Search Functionality: The user can search for any text via the search bar with c
 Contact Form: The site allows users to submit feedback and get in touch.
 
 # Technologies Used:
-HTML
-CSS
-JavaScript
-PHP
+## HTML
+## CSS
+## JavaScript
+## PHP
 
 # Live Demo
 https://the-victorian-group.000webhostapp.com/
